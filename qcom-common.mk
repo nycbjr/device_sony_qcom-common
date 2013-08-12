@@ -63,8 +63,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += qrngd
 
 # OpenGL ES
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opengles.version=131072
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.opengles.version=131072
 
 # QCOM Display
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -72,8 +72,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0 \
-    ro.hwui.text_cache_width=2048
+    debug.mdpcomp.logs=0
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
