@@ -77,4 +77,3 @@
 /system/bin/qcks                 u:object_r:kickstart_exec:s0
 /system/bin/hci_qcomm_init       u:object_r:hci_attach_exec:s0
 /system/etc/init.qcom.bt.sh      u:object_r:bluetooth_loader_exec:s0
-/init.qcom.early_boot.sh      u:object_r:init.qcom.early_boot_exec:s0
